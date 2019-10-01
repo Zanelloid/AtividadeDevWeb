@@ -1,0 +1,457 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>IOT</title>
+    <style>
+        body {
+            background-image: url("https://blogs.forbes.com/louiscolumbus/files/2018/11/86-Of-Enterprises-Increasing-IoT-Spending-In-2019.jpg");
+        }
+    </style>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg text-light navbar-dark" style="background-color: black">
+        <a class="navbar-brand" href="#">Eventos Quanticos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#valores">Valores</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dias
+                    </a>
+                    <div class="dropdown-menu bg-info" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" id="dropdia1" href="#dia1">Primeiro dia</a>
+                        <a class="dropdown-item" id="dropdia2" href="#dia2">Segundo dia</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#registro">Registre-se</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Carrossel-->
+    <div class="row justify-content-center">
+        <div id="myCarousel" class="carousel slide">
+            <ul class="carousel-indicators">
+                <li class="item1 active"></li>
+                <li class="item2"></li>
+                <li class="item3"></li>
+            </ul>
+            <div class="carousel-inner pointer">
+                <div class="carousel-item active">
+                    <img src="https://wolkabout.com/uploads/node_red_2.jpg" style="width:600px; height: 400px;"
+                        alt="LEDress">
+                    <div class="carousel-caption">
+                        <h3>Automação residencial com NodeRED</h3>
+                        <p><b>Aprenda como criar uma integração entre Node-RED, Arduino e Telegram.</b></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDi0cP_uZt4blpcvBHaKbIujm39E25-y08SE3b9jNtbvaKgRMa"
+                        style="width:600px; height: 400px;" alt="Chatbot">
+                    <div class="carousel-caption">
+                        <h3>Chatbot no mundo IoT</h3>
+                        <p><b>Aprenda a integrar seu chatbot a uma board de arduino</b></p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTO48yJP-xM6DGcqmqcEgtDAEiqb7pzkSxDXdwzMRfuwQ5m63x7"
+                        style="width:600px; height: 400px;" alt="Python">
+                    <div class="carousel-caption">
+                        <h3>Micropython - Phyton para microcontroladores</h3>
+                        <p><b>MicroPhyton, uma implementação de Phyton com o foco em microcontroladores.</b></p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev pointer">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next pointer">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+    </div>
+    <div class="container mt-1 justify-content-start">
+        <h2 class="text-light" id="sobre">Sobre o evento:</h2>
+        <p class="text-light">A empresa Eventos quanticos apresenta esse novo evento sobre
+            IOT(Internet of things/internet das coisas) trazendo diversas novidades nessa area que aumenta a cada
+            dia. Esse evento tem a finalidade de trazer conhecimento e reunir diversas pessoas influentes nessa
+            area, participe para aumentar seu networking e se aperfeiçoar nessa nova onda!!!
+        </p>
+        <!--dia 1-->
+        <h2 class="text-light mt-5" id="dia1">Primeiro dia do evento</h2>
+        <h3 class="text-light">Das 09:00 às 19:00</h3>
+        <!--Primeira row-->
+        <div class="row mt-5 px-4 justify-content-around">
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Abertura</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Abertura do evento, venha conferir as dicas e outras informações sobre o
+                        dia de hoje e outras cuirosidades do evento!!!</p>
+                    <h5 class="card-title">Das 09:00h até 09:45h</h5>
+                </div>
+                <div class="card-footer">Local: Hall principal</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Almoço</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">
+                        Hora de almoçar! Delicie-se em nossa praça de alimentação e se prepare para o resto do
+                        evento.
+                    </p>
+                    <h5 class="card-title">Das 12:00h até 13:00h</h5>
+                </div>
+                <div class="card-footer">Local: Praça de alimentação</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Coffee break</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Durante o intervalo de coffee-break, serão entregues kits contendo suco e
+                        biscoitos. Um delicioso intervalo para relaxar, conhecer novas pessoas e estreitar contatos.
+                    </p>
+                    <h5 class="card-title">Das 16:00h até 17:00h</h5>
+                </div>
+                <div class="card-footer">Local: Praça de alimentação</div>
+            </div>
+        </div>
+        <!--Segunda row-->
+        <div class="row mt-5 px-4 justify-content-around">
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Monitorando Oxigênio Medicinal - IoT na Saúde</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Vamos apresentar a solução de monitoramento de oxigênio medicinal da
+                        Startup Salvus e falar sobre os principais desafios desde o primeiro protótipo a instalação
+                        na casa do primeiro paciente.</p>
+                    <h5 class="card-title">Das 10:00h até 12:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 1</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Get Smart com LoRaWAN: IoT na prática</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Visão prática sobre IoT à luz da perspectiva da American Tower com o
+                        lançamento da sua rede neutra ATC LoRaWAN para o mercado brasileiro.</p>
+                    <h5 class="card-title">Das 13:00h até 15:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 1</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">IoT na Saúde - Como a Internet das Coisas está revolucionando o tratamento
+                    do diabetes</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Esta palestra tem o intuito de falar sobre as soluções de IoT que já estão
+                        no mercado e as que estão em fase de desenvolviment com o objetivo de tornar o
+                        tratamento de Diabetes Mellitus, mais eficaz,
+                        seguro e preventivo de mortes e complicações. Vamos ver a Internet das Coisas de fato
+                        transformando a vida das pessoas.</p>
+                    <h5 class="card-title">Das 17:00h até 19:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 1</div>
+            </div>
+        </div>
+        <!--Terceira row-->
+        <div class="row mt-5 px-4 justify-content-around">
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Como DevOps pode ajudar a ter controle e visão sobre o desenvolvimento de
+                    software</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Nesta palestra você vai entender como DevOps te ajuda a atingir o nível
+                        dinâmico de produção de software, fase por fase, vai entender os níveis de integração com
+                        ambientes, vai entender como obter níveis de qualidade entre os pipelines de teste,
+                        homologação/produção e claro, você vai saber porque deveria estar usando Azure DevOps há
+                        muito tempo.</p>
+                    <h5 class="card-title">Das 10:00h até 11:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 2</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Processando Temperatura e Umidade em tempo real com Azure
+                    IoT Hub, Stream Analytics e Power BI</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Gostaria de saber como processar grandes volumes de dados em tempo real
+                        para criar novas insights e entender como funciona o universo de Big Data e IoT na
+                        plataforma de dados Microsoft Azure utilizando as ferramentas Azure IoT Hub, Stream
+                        Analytics e Power BI, e como podemos aplicar isso na indústria 4.0?</p>
+                    <h5 class="card-title">Das 11:00h até 12:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 2</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Micropython - Phyton para microcontroladores</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Nessa palestra será apresentado o MicroPhyton, uma implementação de Phyton
+                        com o foco em microcontroladores. Serão apresentados os detalhes de MicroPhyton e aplicações
+                        em IoT e em educação usando placas com ESP8266 e também com BBC micro:bit.</p>
+                    <h5 class="card-title">Das 13:00h até 14:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 2</div>
+            </div>
+        </div>
+        <!--Quarta row-->
+        <div class="row mt-5 px-4 justify-content-around">
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">User Experience em IoT</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">O
+                        que usuários e desenvolvedores deveriam saber sobre estratégias de comunicação homem-máquina
+                        para favorecer uma experiência do usuário tranquila e agradável? Venha conferir no IoT
+                        Weekend.</p>
+                    <h5 class="card-title">Das 10:00h até 12:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 3</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">TJBots: unindo Criatividade, Open Source, IoT e Watson</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Nesta Palestra, Stéfany irá mostrar as funcionalidades dos TJBots, um
+                        projeto open source de robôs que exploram a criatividade e que conseguem unir IoT e Watson,
+                        a Inteligência Artificial da IBM.</p>
+                    <h5 class="card-title">Das 13:00h até 14:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 3</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Chatbot no mundo IoT</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">O objetivo dessa palestra será demonstrar como que em poucos passos nós
+                        podemos integrar um Chatbot desenvolvido em Node.js com um board arduino.</p>
+                    <h5 class="card-title">Das 16:00h até 17:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 3</div>
+            </div>
+        </div>
+        <!--Dia 2-->
+        <h2 class="text-light mt-5" id="dia2">Segundo dia do evento</h2>
+        <h3 class="text-light">Das 09:00 às 19:00</h3>
+        <!--Primeira row-->
+        <div class="row mt-5 px-4 justify-content-around">
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Abertura</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Abertura do evento, venha conferir as dicas e outras informações sobre o
+                        dia de hoje e outras cuirosidades do evento!!!</p>
+                    <h5 class="card-title">Das 09:00h até 09:45h</h5>
+                </div>
+                <div class="card-footer">Local: Hall principal</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Almoço</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">
+                        Hora de almoçar! Delicie-se em nossa praça de alimentação e se prepare para o resto do
+                        evento.
+                    </p>
+                    <h5 class="card-title">Das 12:00h até 13:00h</h5>
+                </div>
+                <div class="card-footer">Local: Praça de alimentação</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Coffee break</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Durante o intervalo de coffee-break, serão entregues kits contendo suco e
+                        biscoitos. Um delicioso intervalo para relaxar, conhecer novas pessoas e estreitar contatos.
+                    </p>
+                    <h5 class="card-title">Das 17:00h até 19:00h</h5>
+                </div>
+                <div class="card-footer">Local: Praça de alimentação</div>
+            </div>
+        </div>
+        <!--Segunda row-->
+        <div class="row mt-5 px-4 justify-content-around">
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">IoT a longas distâncias – Conheça a tecnologia LoRa</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Veremos os detalhes técnicos, operacionais e comercias da tecnologia LoRa
+                        via protocolo LoraWan e via rádio LoRa Puro. Como funciona, implementacao, custos, vantagens
+                        e exemplos reais de dispositivos enviando dados via plataforma de nuvem.</p>
+                    <h5 class="card-title">Das 10:00h até 12:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 1</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Linux openWRT no meu IoT?</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">O uso de Linux embarcado tem se tornado cada vez mais comum, principalmente
+                        com a popularização e a redução dos custos dos processadores. Nesta palestra, irei abordar o
+                        uso de Linux, mais precisamente o openWRT, nas aplicações de IoT, e como isso poderá ajudar
+                        no ciclo de desenvolvimento de um sistema IoT.</p>
+                    <h5 class="card-title">Das 13:00h até 15:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 1</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Azure IoT Hub e Edge - Inteligência, Controle e Gestão de dispositivos na
+                    ponta e na nuvem.</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Esta palestra irá ajudá-lo a entender o cenário de IOT (internet das
+                        coisas). O Conceito objetiva entender de forma correta, didática e prática, o que é IOT. A
+                        Estratégia demonstrara o que não pode ficar de fora de um projeto de IOT. A Prototipação
+                        demonstrará uma “placa eletrônica” de internet das coisas funcionando. Nesta palestra você
+                        irá verificar cenários de uso de IOT, mostrando casos de sucesso na prática do uso do IOT.
+                    </p>
+                    <h5 class="card-title">Das 15:00h até 17:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 1</div>
+            </div>
+        </div>
+        <!--Terceira row-->
+        <div class="row mt-5 px-4 justify-content-around">
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">LEDress-Vestindo Internet das Coisas</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Que tal ter um vestido que você consegue mudar a cor através de rede sem
+                        fio? Nesta apresentação será abordado o LEDress, que através da plataforma ESP-Wear,
+                        desenvolvida pelo IoTMakers, é possível integrar costura com Internet das Coisas.Será
+                        mostrada desde a concepção, construção e demonstração do projeto.</p>
+                    <h5 class="card-title">Das 10:00h até 11:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 2</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Automação residencial com NodeRED</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Vamos aprender como se criar uma integração entre Node-RED, Arduino e
+                        Telegran sem a presença de um serviço de Cloud direto. Vamos aprender a fezer um chatbot no
+                        telegram que integre diretamente com com nosso sistema de automação.</p>
+                    <h5 class="card-title">Das 11:00h até 12:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 2</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Benefícios e impactos do IoT no Varejo</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">O curso abrange os seguintes pontos: A importância da internet das
+                        coisas no varejo, o brasil está pronto para internet das coisas no varejo?, aplicações para
+                        ganhar competitividade no varejo e como se preparar para o IoT.</p>
+                    <h5 class="card-title">Das 13:00h até 14:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 2</div>
+            </div>
+        </div>
+        <!--Quarta row-->
+        <div class="row mt-5 px-4 justify-content-around">
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Dispositivos IoT com FPGAs</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">No mundo da Internet das Coisas as demandas são desafiadoras: baixo consumo
+                        de bateria, capacidade de transmissão de dados e poderio computacional compatível com os
+                        recursos necessários para captar, processar e trocar dados com a nuvem. Na atual tendência,
+                        procura-se concentrar recursos na fronteira do IoT, no dispositivo.E um forte aliado é o
+                        FPGA, chip com característica reconfigurável, flexível e ao mesmo tempo poderoso para
+                        atender as demandas do IoT para processamento de sinais na frente de batalha</p>
+                    <h5 class="card-title">Das 10:00h até 11:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 3</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">Estimativa de contagem de pessoas com SimpleCV, Raspberry Pi e uma VPS
+                    Linux</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">Este curso aborda um sistema de visão computacional capaz de contar
+                        pessoas em uma imagem em tempo real e, em conjunto com a nuvem, contabilizar e produzir
+                        estatísticas das contagens. Quanto a integração com nuvem, o sistema irá se
+                        comunicar a uma VPS para enviar o número médio de pessoas
+                        contabilizadas por período do dia e registrar tais dados em um banco de dados. Além disso, é
+                        utilizada como interface de usuário um bot Telegram, executando na própria VPS, para
+                        obtenção das estatísticas de contagem de pessoas.</p>
+                    <h5 class="card-title">Das 14:00h até 15:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 3</div>
+            </div>
+            <div class="card ml-n4 text-white" style="width: 300px; background-color: black">
+                <div class="card-header">IoT Aplicado à Redução de Perdas para Cadeia Alimentícia</div>
+                <div class="card-body bg-info">
+                    <p class="card-text">O uso de tecnologia de ponta aplicada à eficiência operacional e gestão é o
+                        caminho para se conseguir isso.A Solução de IoT da NEXXTO tem ajudado seus clientes a
+                        reduzirem de forma expressiva os desperdícios na cadeia alimentícia.</p>
+                    <h5 class="card-title">Das 16:00h até 17:00h</h5>
+                </div>
+                <div class="card-footer">Local: Sala 3</div>
+            </div>
+        </div>
+        <!--info-->
+        <h4 class="text-light mt-4" id="valores">Valores:</h4>
+
+        <p class="text-light"><b>Normal:</b><br>
+            O valor por palestra é de 100 reais, e o valor dos cursos são de 80 reais.
+            <br>
+            O valor para participar de todo o evento, ter permissão para todas as palestras e cursos em um dia é de 800
+            reais por pessoa.
+        </p>
+        <p class="text-light"><b>Estudante:</b><br>
+            O valor por palestra é de 80 reais, e o valor dos cursos são de 50 reais.
+            <br>
+            O valor para participar de todo o evento, ter permissão para todas as palestras e cursos em um dia é de 400
+            reais por pessoa(é necessario apresentar carteira de estudante).
+        </p>
+        <p class="text-light"><b>VIP:</b><br>
+            O valor para participar de todo o evento, ter permissão para todas as palestras e cursos nos dois dias, alem
+            de poder participar de uma area exclusiva para VIP's é de 2000 reais por pessoa.
+        </p>
+        <a class="d-flex justify-content-center text-decoration-none" id="registro" target="_blank"
+            style="background-color: black"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdfUv5hsOogd8n7sK2oq0uXzsSc3ak9Vgh-pB1Kq-2oGyJzJw/viewform?usp=sf_link">Cadastre-se
+            no newsletter!</a>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small cyan text-light" style="background-color: black">
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a> Eventos Quanticos</a>
+        </div>
+    </footer>
+    <script>
+        $('.navbar a[href^="#"]').on('click', function (e) {
+            e.preventDefault();
+            var id = $(this).attr('href'),
+                targetOffset = $(id).offset().top;
+
+            $('html, body').animate({
+                scrollTop: targetOffset - 100
+            }, 1000);
+        });
+        $(document).ready(function () {
+            $("#myCarousel").carousel();
+
+            $(".item1").click(function () {
+                $("#myCarousel").carousel(0);
+            });
+            $(".item2").click(function () {
+                $("#myCarousel").carousel(1);
+            });
+            $(".item3").click(function () {
+                $("#myCarousel").carousel(2);
+            });
+            $(".carousel-control-prev").click(function () {
+                $("#myCarousel").carousel("prev");
+            });
+            $(".carousel-control-next").click(function () {
+                $("#myCarousel").carousel("next");
+            });
+        });
+    </script>
+</body>
+
+</html>
